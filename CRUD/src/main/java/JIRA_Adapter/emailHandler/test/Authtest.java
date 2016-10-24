@@ -8,7 +8,7 @@ public class Authtest
 {
 	public static void main(String[] args)
 	{
-		String s = "sacha5:Hello12345";
+		String s = "username:password";
 		byte[] byteArray = s.getBytes();
 		String auth;
 		//System.out.println(Base64.encodeBase64String(byteArray));

@@ -171,9 +171,9 @@ public class JiraServices
 
 	/*public boolean addAttachmentToIssue(String issueKey, String fullfilename) throws IOException
 	{
-		String jira_attachment_authentication = new String(DatatypeConverter.printBase64Binary(new byte[] a = ("sacha5:Hello12345").getBytes()));
+		String jira_attachment_authentication = new String(DatatypeConverter.printBase64Binary(new byte[] a = ("username:password").getBytes()));
 		CloseableHttpClient httpclient = HttpClients.createDefault();
-		HttpPost httppost = new HttpPost("https://tools.publicis.sapient.com/jira/api/latest/issue/"+issueKey+"/attachments");
+		HttpPost httppost = new HttpPost("https://***WEB-URL***/jira/api/latest/issue/"+issueKey+"/attachments");
 		httppost.setHeader("X-Atlassian-Token", "nocheck");
 		httppost.setHeader("Authorization", "Basic "+jira_attachment_authentication);
 

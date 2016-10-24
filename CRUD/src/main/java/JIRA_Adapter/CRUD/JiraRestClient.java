@@ -23,9 +23,9 @@ public class JiraRestClient
     {
         try
         {
-            JiraServices jrc = new JiraServices("https://tools.publicis.sapient.com/jira/", "sacha5", "Hello12345");
-            // String issue = jrc.getIssue("SGM-11");
-            //String issue = jrc.createIssue(43305, 7, "testing with jira-REST-client", "worked :) Sudharshan",1,58523);//(ProjectID,IssueType/Story,Summary,description,priority,component/INFRA)
+            JiraServices jrc = new JiraServices("https://***Web-URL***/jira/", "Username", "Password");
+            // String issue = jrc.getIssue("KEY-11");
+            //String issue = jrc.createIssue(49305, 7, "testing with jira-REST-client", "worked :) Sudharshan",1,58523);//(ProjectID,IssueType/Story,Summary,description,priority,component/INFRA)
             String issue = jrc.createIssue(parsedIssue.getProjectID(), 7, parsedIssue.getSummary(), parsedIssue.getDescription(), parsedIssue.getPriority(), parsedIssue.getComponent(), parsedIssue.getLabels());
             System.out.println(issue);
         } 

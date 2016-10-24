@@ -10,7 +10,7 @@ public class ReadingEmail {
         try {
             Session session = Session.getInstance(props, null);
             Store store = session.getStore();
-            store.connect("blroutlook.sapient.com", "sacha5", "Hello12345");
+            store.connect("Server_Name", "Username", "Password");
             Folder inbox = store.getFolder("INBOX");
             inbox.open(Folder.READ_ONLY);
             System.out.println(inbox.getUnreadMessageCount());

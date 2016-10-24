@@ -20,10 +20,10 @@ import JIRA_Adapter.Utils.ParseHTMLWithTika;
 
 public class EmailPoller 
 {
-	private static String server = "blroutlook.sapient.com";
-	private static String username = "sacha5";
-	private static String password = "Hello12345";
-	private static String folder = "INBOX"; ///ITSM-Constellium    ///Log_Analyse_Test
+	private static String server = "Serve_Name";
+	private static String username = "Username";
+	private static String password = "Password";
+	private static String folder = "INBOX"; ///ITSM///Log_Analyse_Test
 
 	public static final String FORMAT_ISO_8601 = "yyyy-MM-dd'T'HH:mm:ss'Z'";
 	

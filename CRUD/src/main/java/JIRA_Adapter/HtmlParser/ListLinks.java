@@ -16,7 +16,7 @@ public class ListLinks {
     //public static void main(String[] args) throws IOException
 	public void parseHTML(String parsableContent)
     {
-        //Validate.isTrue(args.length == 1, "http://news.ycombinator.com/");
+        //Validate.isTrue(args.length == 1, "http://sample.xyz.com/");
         //String url = args[0];
 /*        String url = "http://www.google.com/";
         print("Fetching %s...", url);
